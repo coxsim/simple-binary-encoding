@@ -260,7 +260,6 @@ class JavaGeneratorTest
     @Test
     void shouldGenerateBasicMessage() throws Exception
     {
-        System.err.println("*** sbe.keyword.append.token=" + System.getProperty("sbe.keyword.append.token"));
         final UnsafeBuffer buffer = new UnsafeBuffer(new byte[4096]);
         generator().generate();
 
